@@ -3,7 +3,7 @@
 namespace FunCommand
 {
     [PluginInformation(
-        Author = "Antoio",
+        Author = "Antoiofo",
         Description ="Fun command to play with",
         LoadPriority =0,
         Name = "FunCommand",
