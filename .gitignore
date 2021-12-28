@@ -1,5 +1,5 @@
-**/FunCommand/bin
+**/bin
 **/.vs
 **/.git
-**/FunCommand/obj
+**/obj
 **/packages
