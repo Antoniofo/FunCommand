@@ -8,7 +8,7 @@ Adds some simple commands for you to have fun.
 3. Restart/Start your server.
 
 the dll can be download [here](https://github.com/antoniofo/FunCommand/releases/)
-## Permission
+## Permissions
 You will need to assign permission to role for using the commands here they are.
 
 ```
