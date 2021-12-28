@@ -30,13 +30,13 @@ namespace FunCommand.Commands
                 if (arg.ToLower() == "mtf" || arg == "0")
                 {
                     Round.Get.SpawnVehicle();
-                    result.Message = "L'hélicoptère des MTF arrive !";
+                    result.Message = "MTF chopper arrives !";
                     result.State = CommandResultState.Ok;
                 }
                 else if(arg.ToLower() == "chaos" || arg == "1")
                 {
                     Round.Get.SpawnVehicle(true);
-                    result.Message = "La voiture des chaos arrive !";
+                    result.Message = "Chaos car arrives !";
                     result.State = CommandResultState.Ok;
                 }
                 else
