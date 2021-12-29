@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("FunCommand")]
+[assembly: AssemblyTitle("FunCommands")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FunCommand")]
+[assembly: AssemblyProduct("FunCommands")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("1d074ed8-6cd4-4eb4-86f6-3547d046c315")]
+[assembly: Guid("2cd30ce3-a1a1-4e3d-8d05-c8e147a6cc97")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

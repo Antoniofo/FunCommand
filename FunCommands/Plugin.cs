@@ -4,12 +4,12 @@ namespace FunCommand
 {
     [PluginInformation(
         Author = "Antoiofo",
-        Description ="Fun command to play with",
-        LoadPriority =0,
+        Description = "Fun command to play with",
+        LoadPriority = 0,
         Name = "FunCommand",
-        SynapseMajor =2,
-        SynapseMinor =8,
-        SynapsePatch =0,
+        SynapseMajor = 2,
+        SynapseMinor = 8,
+        SynapsePatch = 0,
         Version = "v1.0.1"
         )]
     public class Plugin : AbstractPlugin
