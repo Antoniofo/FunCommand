@@ -9,7 +9,7 @@ namespace FunCommand
         Name = "FunCommand",
         SynapseMajor = 2,
         SynapseMinor = 8,
-        SynapsePatch = 0,
+        SynapsePatch = 1,
         Version = "v1.0.1"
         )]
     public class Plugin : AbstractPlugin
