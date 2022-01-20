@@ -7,9 +7,9 @@ namespace FunCommand
         Description = "Fun command to play with",
         LoadPriority = 0,
         Name = "FunCommand",
-        SynapseMajor = 2,
-        SynapseMinor = 8,
-        SynapsePatch = 1,
+        SynapseMajor = SynapseController.SynapseMajor,
+        SynapseMinor = SynapseController.SynapseMinor,
+        SynapsePatch = SynapseController.SynapsePatch,
         Version = "v1.0.1"
         )]
     public class Plugin : AbstractPlugin
