@@ -10,7 +10,7 @@ namespace FunCommand
         SynapseMajor = SynapseController.SynapseMajor,
         SynapseMinor = SynapseController.SynapseMinor,
         SynapsePatch = SynapseController.SynapsePatch,
-        Version = "v1.0.1"
+        Version = "v1.0.2"
         )]
     public class Plugin : AbstractPlugin
     {

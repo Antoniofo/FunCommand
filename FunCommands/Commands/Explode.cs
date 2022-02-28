@@ -35,7 +35,8 @@ namespace FunCommand.Commands
                     {
                         foreach (Player ps in Server.Get.Players)
                         {
-                            Map.Get.Explode(ps.Position);
+
+                            Map.Get.Explode(ps.Position, Synapse.Api.Enum.GrenadeType.Grenade, context.Player);
                         }
                         result.Message = "Everyone Exploded";
                         result.State = CommandResultState.Ok;
@@ -53,7 +54,7 @@ namespace FunCommand.Commands
                     {
                         foreach (Player ps in Server.Get.Players.Where(x => x.RemoteAdminAccess == true))
                         {
-                            Map.Get.Explode(ps.Position);
+                            Map.Get.Explode(ps.Position, Synapse.Api.Enum.GrenadeType.Grenade, context.Player);
                         }
                         result.Message = "All Admin exploded";
                         result.State = CommandResultState.Ok;
@@ -72,7 +73,7 @@ namespace FunCommand.Commands
                     {
                         if (ps.NickName.ToLower().Contains(arg.ToLower()))
                         {
-                            Map.Get.Explode(ps.Position);
+                            Map.Get.Explode(ps.Position, Synapse.Api.Enum.GrenadeType.Grenade, context.Player);
                             Count++;
                             break;
                         }
